@@ -1,5 +1,5 @@
 $(document).ready(function () {
-console.log("veikia");
+console.log("veikias");
 /*     const url = 'http://updv:83/UPDVService/UPDVWebService.asmx';
 const header = new Headers();
 //const sours ='';
