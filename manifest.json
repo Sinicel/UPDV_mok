@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "UPDV",
+    "version": "0.1",
+    "description": "UPDV siuntos su mokesciais",
+
+    "browser_action": {
+      "default_title": "pOpUp organizer", 
+    
+      "default_popup": "popup.html" 
+    },
+
+    "background": {
+      "scripts": ["background.js"]
+    },
+    
+    "content_scripts": [{
+      "js": [ "jquery.js", "content.js","popup.js"],
+      "matches": [ "http://bp.lpexpress.lt/dep/letters_order","http://updv:83/UPDVService/UPDVWebService.asmx",
+        "https://talpykla.romaxi.lt/login"]
+          }],
+  
+    "permissions" : [
+            "http://bp.lpexpress.lt/dep/letters_order","http://updv:83/UPDVService/UPDVWebService.asmx","https://talpykla.romaxi.lt/login",
+            "tabs"
+          ]
+  
+          
+  } 
