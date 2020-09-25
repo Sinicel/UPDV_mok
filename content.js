@@ -1,5 +1,5 @@
 $(document).ready(function () {
-console.log("veikias");
+console.log("veikia content.js failas");
 /*     const url = 'http://updv:83/UPDVService/UPDVWebService.asmx';
 const header = new Headers();
 //const sours ='';
